@@ -1,0 +1,74 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-color: #f7fafc !important;
+}
+
+$primary: #040caf;
+$secondary: #474cc0;
+
+.card {
+  border-radius: 0px !important;
+  border: none;
+  box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.uploader-input {
+  opacity: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.uploader-mask {
+  width: 80px;
+  height: 80px;
+  border: 1px dashed #ccc;
+  border-radius: 5px !important;
+  background-color: #fff !important;
+  :hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+    background-color: #ccc !important;
+  }
+}
+
+.upload-icon {
+  color: $primary;
+  width: 50px;
+  height: 50px;
+}
+
+.dropzone-input {
+  opacity: 0;
+  height: 300px;
+  position: absolute;
+  width: 100% !important;
+}
+
+.dropzone-mask {
+  width: 100%;
+  height: 300px;
+  border: 1px dashed #ccc;
+  border-radius: 5px !important;
+  background-color: #fff !important;
+  :hover {
+    cursor: pointer;
+    background: lightblue;
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.dropzone-icon {
+  width: 300px;
+  opacity: 50%;
+  height: 300px;
+  color: var(--primary);
+}

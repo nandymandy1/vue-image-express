@@ -1,0 +1,74 @@
+body{
+    background-color: #F7FAFC !important;
+}
+
+:root{
+    --primary: #040CAF;
+}
+
+.card {
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 0px !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.uploader-input {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    opacity: 0;
+}
+.uploader-mask{
+    width: 80px;
+    height: 80px;
+    border: 1px dashed #ccc;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+}
+
+.uploader-mask:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+    background-color: #ccc !important;
+}
+
+.upload-icon{
+    color: var(--primary);
+    width: 50px;
+    height: 50px;
+}
+
+.dropzone-input{
+    height: 300px;
+    position: absolute;
+    width: 100% !important;
+    opacity: 0;
+}
+
+.dropzone-mask{
+    width: 100%;
+    height: 300px;
+    border: 1px dashed #ccc;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+}
+
+.dropzone-mask:hover{
+    cursor: pointer;
+    background-color: #ccc !important;
+    box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.dropzone-icon{
+    width: 300px;
+    opacity: 50%;
+    height: 300px;
+    color: var(--primary);
+}
